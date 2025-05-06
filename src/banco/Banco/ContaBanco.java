@@ -105,7 +105,7 @@ public void depositar(float valor){
         System.out.println("Deposito realizado na conta de " + this.dono + "! ");
     }
     else{
-        System.out.println("Depósito não foi realizado ");
+        System.out.println("Depósito não foi realizado, porque a conta está desativada");
     }
 
 }
@@ -131,7 +131,7 @@ public void pagarMensal(String t){
                 System.out.println("A mensalidade foi paga na conta de " + this.getDono() + "!");
             }
             else{
-                System.out.println("Saldo insuficiente! ");
+                System.out.println("Saldo insuficiente para realizar o pagamento mensal! ");
             }
         }
         else{
@@ -140,12 +140,12 @@ public void pagarMensal(String t){
                 System.out.println("A mensalidade foi paga na conta de " + this.getDono() + "!");
             }
             else{
-                System.out.println("Saldo insuficiente! ");
+                System.out.println("Saldo insuficiente para realizar o pagamento mensal! ");
             }
         }
     }
     else{
-        System.out.println("Conta inativa");
+        System.out.println("Não foi possivel realizar o pagamento mensal, porque a conta está desativada! ");
     }
 
 }
