@@ -43,7 +43,7 @@ public int conta;
 
     public int getConta(){
     return conta;}
-    public void setConta(float valor){
+    public void setConta(int conta){
     this.conta = conta;}
 
 public void estadoAtual(){
